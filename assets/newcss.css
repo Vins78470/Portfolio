@@ -703,10 +703,11 @@ img {
 }
 /*need change*/
 .portfolio__content {
+
   padding: 0 1.5rem;
 }
 .portfolio__img {
-  width: 310px;
+  width: 1010px;
   border-radius: 0.5rem;
   justify-self: center;
 }
