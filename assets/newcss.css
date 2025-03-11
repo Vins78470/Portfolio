@@ -1141,6 +1141,37 @@ img {
     margin-top: 4.5rem;
   }
 }
+/* Styles pour la section ambitions */
+.ambitions {
+
+
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* Style du titre */
+.section__title {
+
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Style du texte */
+.portfolio__data p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
 
 /* For large devices */
 
