@@ -7,6 +7,9 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/newcss.css" />
+    <head>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    </head>
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
@@ -167,8 +170,9 @@
 
           <div class="about__data">
             <p class="about__description">
-              Je m'appelle Vincent Carret, je suis en 2e année de BUT Informatique à Vélizy, passionné par la technologie et un lecteur assidu. J'ai une attitude autonome et positive, et je m'épanouis dans des environnements dynamiques et stimulants. Je recherche un poste compétitif pour améliorer mes compétences et contribuer à une organisation professionnelle. Je suis très passionné par l'apprentissage de nouvelles choses qui m'intéressent et qui peuvent m'aider à progresser.
+              Je m'appelle <strong>Vincent Carret</strong>, je suis en <strong>2e année de BUT Informatique</strong> à <strong>Vélizy</strong>, passionné par la <strong>technologie</strong> et un lecteur assidu. J'ai une attitude <strong>autonome</strong> et <strong>positive</strong>, et je m'épanouis dans des environnements <strong>dynamiques</strong> et <strong>stimulants</strong>. Je recherche un poste <strong>compétitif</strong> pour améliorer mes <strong>compétences</strong> et contribuer à une organisation <strong>professionnelle</strong>. Je suis très passionné par l'<strong>apprentissage</strong> de nouvelles choses qui m'intéressent et qui peuvent m'aider à <strong>progresser</strong>.
             </p>
+
 
             <div class="about__info">
               <div>
@@ -208,51 +212,72 @@
             <div class="skills__content skills__open">
               <div class="skills__header">
                 <i class="fas fa-pencil-ruler skills__icon"></i>
-
                 <div>
-                  <h1 class="skills__title">Languages de programmation</h1>
+                  <h1 class="skills__title">Langages de programmation</h1>
                 </div>
-
                 <i class="uil uil-angle-down skills__arrow"></i>
               </div>
-              
 
               <div class="skills__list grid">
-                <div class="skills__data">
+                <!-- C -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
                   <div class="skills__titles">
-                    <h3 class="skills__name">C</h3>
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      C
+                      <img src="/assets/img/C.png" alt="Logo C" width="50" height="50" style="margin-top: 10px;">
+                    </h3>
                   </div>
-                  
                 </div>
-                
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Java</h3>
-                    </div>
-                    
+
+                <!-- Java -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                  <div class="skills__titles">
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      Java
+                      <i class="fab fa-java" style="font-size: 50px;"></i>
+                    </h3>
                   </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Html, CSS, JavaScript</h3>
-                    </div>
-                    
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Python</h3>
-                    </div>
-                   
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">SQL</h3>
-                    </div>
                 </div>
-                
-                
+
+                <!-- HTML, CSS, JavaScript -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                  <div class="skills__titles">
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      HTML, CSS, JavaScript
+                    </h3>
+                    <div class="skills__icons">
+                      <!-- Icônes pour HTML, CSS, et JavaScript -->
+                      <i class="fab fa-html5" style="font-size: 50px; color: #e34c26;"></i>
+                      <i class="fab fa-css3-alt" style="font-size: 50px; color: #2965f1;"></i>
+                      <i class="fab fa-js" style="font-size: 50px; color: #f7df1e;"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Python -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                  <div class="skills__titles">
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      Python
+                      <i class="fab fa-python" style="font-size: 50px; color: #306998;"></i>
+                    </h3>
+                  </div>
+                </div>
+
+                <!-- SQL -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                  <div class="skills__titles">
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      SQL
+                      <i class="fas fa-database" style="font-size: 50px; color: #00758f;"></i>
+                    </h3>
+                  </div>
+                </div>
               </div>
             </div>
 
+
+            <!--==================== Skill 2 =================-->
             <!--==================== Skill 2 =================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
@@ -266,84 +291,94 @@
               </div>
 
               <div class="skills__list grid">
-                <div class="skills__data">
+                <!-- DBMS -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
                   <div class="skills__titles">
-                    <h3 class="skills__name">DBMS</h3>
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      DBMS
+                      <i class="fas fa-database" style="font-size: 50px; color: #00758f;"></i>
+                    </h3>
                   </div>
+                </div>
 
-                </div>
-                <div class="skills__data">
+                <!-- Algorithms -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Algorithms</h3>
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      Algorithms
+                      <i class="fas fa-cogs" style="font-size: 50px; color: #333;"></i>
+                    </h3>
                   </div>
-                  
+                </div>
 
-                </div>
-                <div class="skills__data">
+                <!-- OS -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
                   <div class="skills__titles">
-                    <h3 class="skills__name">OS</h3>
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      OS
+                      <i class="fas fa-desktop" style="font-size: 50px; color: #555;"></i>
+                    </h3>
                   </div>
-                  
                 </div>
-                
               </div>
             </div>
-          </div>
 
-          <div>
             <!--==================== Skill 3 =================-->
+            <!--==================== Technologies =================-->
+            <!--==================== Technologies =================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
                 <i class="fas fa-swatchbook skills__icon"></i>
                 <div>
                   <h1 class="skills__title">Technologies</h1>
                 </div>
-
                 <i class="uil uil-angle-down skills__arrow"></i>
               </div>
 
               <div class="skills__list grid">
-                <div class="skills__data">
+                <!-- Git -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Git</h3>
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      Git
+                      <i class="fab fa-git-square" style="font-size: 50px; color: #f1502f;"></i>
+                    </h3>
                   </div>
-                  
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MongoDB</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MySQL</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Apache</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name"></h3>
-                  </div>
-                  
-                </div>
-                
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name"></h3>
-                  </div>
-                  
 
-                  
+                <!-- MongoDB -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                  <div class="skills__titles">
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      MongoDB
+                      <i class="fas fa-database" style="font-size: 50px; color: #4DB33D;"></i>
+                    </h3>
+                  </div>
+                </div>
+
+                <!-- MySQL -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                  <div class="skills__titles">
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 5px;"> <!-- Réduit le margin-bottom ici -->
+                      MySQL
+                      <img src="assets/img/mysql-logo.png" alt="MySQL Logo" width="50" height="50" style="padding-top: 20px"> <!-- Ajuste le margin-top ici -->
+                    </h3>
+                  </div>
+                </div>
+
+                <!-- Apache -->
+                <div class="skills__data" style="background-color: #fff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                  <div class="skills__titles">
+                    <h3 class="skills__name" style="font-size: 22px; font-weight: bold; color: #333; margin-bottom: 15px;">
+                      Apache
+                      <img src="assets/img/apache-logo.png" alt="Apache Logo" width="50" height="50" style="margin-top: 10px;">
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
       </section>
@@ -525,23 +560,22 @@
       </section>
 
 
-
       <section class="ambitions" id="ambitions">
         <h2 class="section__title">Mes Ambitions</h2>
         <div class="portfolio__data">
-          <p>Actuellement en deuxième année de BUT informatique,
-            je vais intégrer l'école d'ingénieur EFREI en alternance
+          <p>Actuellement en deuxième année de <strong>BUT informatique</strong>,
+            je vais intégrer l'école d'ingénieur <strong>EFREI</strong> en alternance
             afin de devenir ingénieur en informatique, avec une spécialisation
-            en majeure <strong>Logiciel et Systèmes d’Information</strong>. Cette opportunité
-            me permettra non seulement d’acquérir des compétences techniques
-            avancées, mais aussi de monter en compétences grâce à l'expérience
-            en entreprise. À la fin de mon cursus, je reste ouvert à la
-            possibilité de poursuivre un double diplôme en management afin
-            d’élargir mes perspectives professionnelles et de renforcer mes
-            capacités en gestion et leadership.</p>
-
+            en majeure <strong>Logiciels et Systèmes d’Information</strong>. Cette opportunité
+            me permettra non seulement d’acquérir des <strong>compétences techniques avancées</strong>
+            mais aussi de monter en compétences grâce à l'<strong>expérience en entreprise</strong>.
+            À la fin de mon cursus, je reste ouvert à la
+            possibilité de poursuivre un <strong>double diplôme en management</strong> afin
+            d’élargir mes <strong>perspectives professionnelles</strong> et de renforcer mes
+            capacités en <strong>gestion</strong> et <strong>leadership</strong>.</p>
         </div>
       </section>
+
 
 
       <!--=================== Portfolio ===================-->
@@ -560,26 +594,19 @@
                   Apprenti Ordonnateur
                 </h3>
                 <p class="portfolio__description">
-                  <strong>Situation </strong>:
-                  Le projet "L'Apprenti Ordonnateur" consiste à développer une application JavaFX où l'apprenti doit réaligner des cristaux dans un royaume fictif, Krystalia, après une tempête magique. Pour réussir, il faut créer une architecture robuste et une structure de classes claire.
-                  <br>
-                  <br>
-                  <strong>Tâche</strong> :
-                  Analyser le problème et concevoir les classes nécessaires, définir leurs responsabilités, et organiser les interactions entre ces classes.
-                  <br>
-                  <br>
-
-                  <strong> Action </strong>:
-                  Nous avons utilisé une feuille de brouillon pour esquisser nos idées et définir les classes à implémenter (par exemple, Temple, Apprenti, Cristal). Nous avons également planifié l’architecture du projet en réfléchissant à l’organisation des objets et à leur collaboration.
-                  <br>
-                  <br>
-
-                  <strong>Résultat </strong> :
-                  Une structure claire a été mise en place, permettant de répartir efficacement les tâches entre les membres du groupe. Cela a aussi permis d’établir une base solide pour l’implémentation du projet, évitant toute confusion lors des phases ultérieures.
+                  <strong>- Développement JavaFX :</strong> Création d'une application où l'apprenti réaligne des cristaux dans le royaume de <strong>Krystalia</strong> après une <strong>tempête magique</strong>.
+                  <br><br>
+                  <strong>- Conception des classes :</strong> Analyse du problème, création des <strong>classes</strong> (ex : <strong>Temple</strong>, <strong>Apprenti</strong>, <strong>Cristal</strong>) et organisation des responsabilités.
+                  <br><br>
+                  <strong>- Implémentation d'algorithmes :</strong> Utilisation d'algorithmes de <strong>parcours</strong> pour réorganiser les cristaux et <strong>recherche de chemin</strong> pour simuler les déplacements de l'apprenti dans le royaume.
+                  <br><br>
+                  <strong>- Résultat :</strong> Une <strong>structure claire</strong> permettant une <strong>gestion efficace</strong> des tâches, avec une <strong>base solide</strong> pour l’implémentation et une meilleure <strong>collaboration</strong> au sein du groupe.
                 </p>
-
               </div>
             </div>
+
+
+
             <!-- ------------------------portfollio 2-------------------- -->
 
             <div class="portfolio__content grid swiper-slide">
@@ -587,28 +614,20 @@
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">
-                  ESN WARS - Aproche algorithmique
+                  ESN WARS - Approche algorithmique
                 </h3>
                 <p class="portfolio__description">
-                  <strong>Situation</strong> :
-                  Le projet consiste à développer une intelligence artificielle (IA) pour participer au jeu ESN WARS, dans lequel quatre IA interagiront simultanément. L’objectif est de mesurer les performances de chaque IA en fonction du nombre de bitcoins accumulés à la fin de 4000 tours.
-                  <br>
-                  <br>
-                  <strong>Tâche</strong> :
-                  Analyser l'implémentation du moteur de jeu et de la classe IA pour comprendre comment accéder à l'état du jeu et définir les fonctions nécessaires pour prendre des décisions efficaces à chaque tour.
-                  <br>
-                  <br>
-                  <strong> Action </strong> :
-                  Nous avons étudié l’implémentation du moteur de jeu et constaté que l’état du jeu était régulièrement mis à jour dans un dictionnaire appelé game dict. Nous avons identifié la nécessité de développer des fonctions permettant à l’IA de connaître sa position et de prendre une décision sous forme de lettre à chaque itération du jeu.
-                  <br>
-                  <br>
-                  <strong> Résultat</strong> :
-                  Nous avons pu mettre en place des fonctions essentielles permettant à l’IA d’obtenir les informations nécessaires pour interagir efficacement avec l'environnement du jeu et prendre des décisions stratégiques.
+                  <strong>- Développement IA :</strong> Création d'une intelligence artificielle (IA) pour participer au jeu <strong>ESN WARS</strong>, où quatre IA interagiront simultanément. L’objectif est de mesurer les performances des IA en fonction des <strong>bitcoins accumulés</strong> après <strong>4000 tours</strong>.
+                  <br><br>
+                  <strong>- Analyse du moteur de jeu :</strong> Étude de l'implémentation du moteur de jeu et de la classe <strong>IA</strong> pour comprendre l’accès à l'état du jeu et définir les fonctions nécessaires à une <strong>prise de décision</strong> efficace.
+                  <br><br>
+                  <strong>- Implémentation des fonctions :</strong> Création de fonctions permettant à l’IA de connaître sa <strong>position</strong> et de prendre une décision sous forme de <strong>lettre</strong> à chaque itération du jeu, en se basant sur les informations présentes dans un dictionnaire appelé <strong>game dict</strong>.
+                  <br><br>
+                  <strong>- Résultat :</strong> Mise en place des fonctions essentielles permettant à l’IA d’interagir efficacement avec l’environnement du jeu et de prendre des décisions <strong>stratégiques</strong>.
                 </p>
-
-
               </div>
             </div>
+
 
             <!-- ------------------------portfollio 3-------------------- -->
             <div class="portfolio__content grid swiper-slide">
@@ -617,62 +636,35 @@
               <div class="portfolio__data">
                 <h3 class="portfolio__title">Calcul des Probabilités de la Loi Inverse-Gaussienne</h3>
                 <p class="portfolio__description">
-                  <strong>Situation </strong>:
-                  Les probabilités sont des outils fondamentaux dans de nombreux domaines, permettant de modéliser des phénomènes aléatoires.
-                  La loi inverse-gaussienne, ou loi de Wald, est particulièrement utile pour analyser des phénomènes asymétriques, souvent en lien avec
-                  des durées ou des distances. Ce projet vise à développer un module interactif pour calculer les probabilités associées à cette loi.
-                  <br>
-                  <br>
-                  <strong>Tâche </strong>:
-                  Développer un module qui permet à l’utilisateur de calculer des probabilités selon la loi inverse-gaussienne
-                  en fournissant divers paramètres. Le module devra également offrir des outils de visualisation pour représenter graphiquement la
-                  courbe de la loi et afficher les résultats. Enfin, il doit intégrer une gestion de l'historique des calculs effectués par les utilisateurs.
-                  <br>
-                  <br>
-                  <strong> Action</strong> :
-                  Nous avons conçu un module interactif où l’utilisateur peut personnaliser les calculs en introduisant des paramètres
-                  comme l'espérance (μ) et le paramètre de forme (λ). Plusieurs méthodes numériques ont été implémentées pour le calcul
-                  des probabilités, et des outils de visualisation ont été intégrés pour permettre à l’utilisateur de visualiser la distribution de la
-                  loi inverse-gaussienne. Nous avons également ajouté une fonctionnalité d’historique permettant à l’utilisateur de sauvegarder et consulter les calculs réalisés.
-                  <br>
-                  <br>
-                  <strong>Résultat </strong>:
-                  Le module interactif a été développé avec succès, permettant aux utilisateurs de calculer et de visualiser les
-                  probabilités associées à la loi inverse-gaussienne. La gestion de l'historique des calculs a également été implémentée,
-                  offrant ainsi une expérience utilisateur complète et personnalisée.
+                  <strong>- Développement du module :</strong> Création d'un module interactif permettant de calculer les <strong>probabilités</strong> selon la <strong>loi inverse-gaussienne</strong>, en utilisant des paramètres comme l'<strong>espérance (μ)</strong> et le <strong>paramètre de forme (λ)</strong>.
+                  <br><br>
+                  <strong>- Visualisation :</strong> Intégration d'outils de <strong>visualisation</strong> pour afficher graphiquement la courbe de la loi inverse-gaussienne, facilitant la compréhension des résultats.
+                  <br><br>
+                  <strong>- Gestion de l'historique :</strong> Mise en place d'une fonctionnalité permettant aux utilisateurs de <strong>consulter</strong> et <strong>sauvegarder</strong> les <strong>calculs</strong> effectués, améliorant ainsi l'expérience utilisateur.
+                  <br><br>
+                  <strong>- Résultat :</strong> Le module interactif permet désormais de calculer, visualiser et gérer les probabilités associées à la loi inverse-gaussienne de manière intuitive et personnalisée.
                 </p>
-
-
               </div>
             </div>
+
             <!-- ------------------------portfollio 4-------------------- -->
             <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/bd.png" class="portfolio__img" />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Création d'une base de donnée</h3>
+                <h3 class="portfolio__title">Création d'une base de données</h3>
                 <p class="portfolio__description">
-                 <strong>  Situation </strong>:
-                  Après avoir défini le MCD, l'étape suivante consistait à le transformer en Modèle Logique de Données (MLD)
-                  pour le rendre compatible avec une base de données relationnelle.
-                  <br>
-                  <br>
-                  <strong>Tâche</strong> :
-                  Le but était de convertir le MCD en MLD, en spécifiant les tables, les clés primaires et étrangères,
-                  ainsi que les types de données appropriés pour chaque attribut.
-                  <br>  <br>
-                  <strong>Action</strong> :
-                  Nous avons transformé chaque entité du MCD en table, chaque attribut en colonne
-                  de la table correspondante, et les relations entre les entités ont été traduites en clés étrangères. Par exemple,
-                  la relation entre "Film" et "Acteur" a été implémentée sous forme de table associative.
-                  <br>  <br>
-                  <strong>Résultat </strong>:
-                  Le MLD a été créé, avec des tables bien structurées et des relations claires entre elles.
-                  Cela a permis de passer à l’étape de la création de la base de données physique.
+                  <strong>- Objectif :</strong> Le projet consistait à créer une base de données pour un site de type <strong>Allociné</strong>, en définissant les entités nécessaires et leurs relations.
+                  <br><br>
+                  <strong>- Transformation du MCD en MLD :</strong> Après la définition du <strong>Modèle Conceptuel de Données (MCD)</strong>, l'étape suivante a été de le convertir en <strong>Modèle Logique de Données (MLD)</strong> compatible avec une base de données relationnelle.
+                  <br><br>
+                  <strong>- Création des tables et des relations :</strong> Nous avons créé des <strong>tables</strong> pour chaque entité du MCD, et défini les <strong>clés primaires et étrangères</strong> pour établir les relations entre les différentes tables.
+                  <br><br>
+                  <strong>- Résultat :</strong> Un <strong>MLD</strong> fonctionnel a été conçu, prêt à être utilisé pour la création de la base de données physique, permettant ainsi de stocker les informations relatives aux films, acteurs, et autres éléments du site.
                 </p>
-
               </div>
             </div>
+
 
 
 
@@ -690,12 +682,22 @@
           <section class="ambitions" id="passions">
             <h2 class="section__title">Mes Passions</h2>
             <div class="portfolio__data">
-              <p>Passionné par la musique et le cinéma, j'aime explorer différents styles et découvrir de nouvelles œuvres.
-                Je suis également un adepte de la salle de sport, où je m'entraîne régulièrement pour me dépasser.
-                Enfin, les sports de voile comme le windsurf et le wingfoil me procurent des sensations uniques et une
-                grande liberté sur l'eau.</p>
+              <p>
+                <a href="https://www.google.com/search?hl=fr&tbm=isch&q=studio+musique" target="_blank"><strong>Passionné par la musique</strong></a> et
+                <a href="https://www.google.com/search?hl=fr&tbm=isch&q=films+Alfred+Hitchcock" target="_blank"><strong>le cinéma</strong></a>, j'aime explorer différents styles et découvrir de nouvelles œuvres.
+                Je suis également un adepte de la
+                <a href="https://www.google.com/search?hl=fr&tbm=isch&q=salle+de+sport" target="_blank"><strong>salle de sport</strong></a>, où je m'entraîne régulièrement pour me dépasser.
+                Enfin, les sports de voile comme le
+                <a href="https://www.google.com/search?hl=fr&tbm=isch&q=windsurf" target="_blank"><strong>windsurf</strong></a> et le
+                <a href="https://www.google.com/search?hl=fr&tbm=isch&q=wingfoil" target="_blank"><strong>wingfoil</strong></a> me procurent des sensations uniques et une grande liberté sur l'eau.
+              </p>
             </div>
           </section>
+
+
+
+
+
 
 
           <!--===================== Contact Me =====================-->
